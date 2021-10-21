@@ -8,4 +8,4 @@ if __name__ == "__main__":
                JOIN cohorts on cohorts.id = logs.cohort_id"""
     
     df = pd.read_sql(query, url)
-    df.to_csv("curriculum_logs.csv")
+    df.to_csv("project/curriculum_logs.csv")

@@ -1,24 +1,28 @@
 Hello Zach,
 
-I looked at that student logs data. I was successful in finding some answers.
+I looked at that student logs data. I was successful in finding some answers using a combination of visualizations and z-scores. The information below is identicalto the slide I've attached as a png file. 
 
-1. Which lesson appears to attract the most traffic consistently across cohorts (per program)?
-   
-   I used the home directory and eliminated folders that didn't look like lessons. These are my best guesses.
-   
-    * Java Full-Stack: javascript-i
-    * PHP Full-Stack: javascript-i
-    * Data science: classification and fundamentals tied
+1. Which lessons appear to attract the most traffic consistently across cohorts (per program)?
+Data science: 1. Fundamentals, 2. Classification, 3. Regression
+Web development (Java + PHP): 1. Javascript-I, 2. Spring, 3. HTML-CSS
+2. Which lessons are least accessed?
+Data science: 1. Acquire, 2. Dataframes, 3. Distributed-ML
+Web development (Java + PHP): 1. JSP+JSTL, 2. Fundamentals, 3. Web design
+3. Is there a cohort that referred to a lesson significantly more than other cohorts?
+Java: Oberon: Javascript-I, Java-I, Neptune: HTML-CSS, Marco: jQuery, Niagara: Spring, Appendix
+PHP: Franklin: Java-III, Javascript-II, Hampton: Prework, Java-I, Java-II
+4. What topics are grads continuing to reference after graduation and into their jobs (for each program)?
+Data science: 1. Fundamentals, 2. Classification
+Web development (Java + PHP): 1. Spring, 2. Javascript-I
+5. Is there any suspicious activity like scraping? Who are the illicit users/bots accessing the curriculum?
+192.171.117.210 is abnormally active throughout log
+12.106.208.194 accessed material 3,300 times in three weeks, March 2020
 
-2. Is there a cohort that referred to a lesson significantly more that other cohorts seemed to gloss over?
-3. Are there students who, when active, hardly access the curriculum? If so, what information do you have about these students?
-4. Is there suspicious activity such as users/machines accessing the curriculum who shouldn’t be? Does it appear that scraping is happening? one user makes many requests at once Are there any suspicious IPs?
-6. What topics are grads continuing to reference after graduation and into their jobs (for each program)?
+My notebook is available here
+https://github.com/konstanzer/anomaly-detection-exercises/blob/master/project/curriculum-logs.ipynb
+Prepare and acquire files can also be found in the repo.
 
+Good luck with your presentation and remember: It's better to burn out than to fade away.
 
-
-My notebook is here:
-https://github.com/konstanzer/anomaly-detection-exercises/blob/23b75f4e100ccc4918a006fcf8570677adf7c1cb/project/curriculum-logs.ipynb
-
-Good luck on your presentation,
-Steve
+From,
+Steven
